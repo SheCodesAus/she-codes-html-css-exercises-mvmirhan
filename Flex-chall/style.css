@@ -1,0 +1,52 @@
+* {
+    border: 2px solid #fff;
+    margin: 5px;
+}
+html {
+    height: calc(100% - 14px);
+}
+body {
+    background-color: #8246AF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    height: calc(100% - 14px);
+}
+img {
+    height: 100%; 
+    object-fit: cover;
+    padding: auto;
+    object-fit: cover;
+    object-position: top;
+}
+div {
+    padding: 5px;
+    background-color: #FDA103;
+}
+/*** Your code here ***/
+.demo-div {
+    flex-grow: 1;
+    /* a unitless element that suggests every element should be equal */
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .demo-div {
+    width: 48%;
+    height: 250px;
+    margin-bottom: 2%;
+  }
+  
+  .demo-div:nth-child(3n) {
+    width: 100%;
+  }
+  @media (min-width: 600px)
+  {
+  }
+  @media (min-width: 400px)
+{
+    
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: #475F94;
+    background-color:  #475F94;
     color: #fff;
     font-family: "Gill Sans", sans-serif;
 }
@@ -7,11 +7,6 @@ body {
 header {
     border-bottom: 2px solid #FDDC5C;
     text-align: center;
-}
-
-form {
-    margin: 50px auto;
-    width: 90%;
 }
 
 .form-item {
@@ -32,11 +27,6 @@ form {
     border: 2px solid #FDDC5C;
 }
 
-.form-item input:hover,
-.form-item textarea:hover {
-    border: 2px solid #FA4224;
-}
-
 .form-item input,
 .form-item textarea,
 .form-item button {
@@ -45,13 +35,16 @@ form {
     padding: 5px;
     font-size: 18px;
 }
+.form-item button {
+    width: 100px;
+}
 
 .form-item button:hover {
     border: 2px solid #FA4224;
     background-color: #FA4224;
     color: #FFF;
 }
-
-.form-item button {
-    width: 100px;
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #FA4224;
 }

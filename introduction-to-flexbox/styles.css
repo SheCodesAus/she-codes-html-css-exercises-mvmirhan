@@ -13,6 +13,11 @@ body {
     font-size: 1rem;
     font-weight: bold;
     height: calc(100% - 14px);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* vertical alignment */
+    align-content: center;
 }
 
 div {
@@ -21,3 +26,28 @@ div {
 }
 
 /*** Your code here ***/
+
+/* .demo-div {
+    flex-grow: 1;
+} */
+
+#div-5 {
+    order: -1;
+    background-color: green;
+}
+#div-6 {
+    flex-grow: 2;
+    order: 1;
+}
+
+#div-1 {
+    flex-basis: 20%;
+}
+
+#div-1 {
+    flex-basis: 200px;
+    justify-content: center;
+    align-items: ;
+}
+
+

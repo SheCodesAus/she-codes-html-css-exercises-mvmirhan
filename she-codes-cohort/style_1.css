@@ -10,6 +10,7 @@ body {
 
 header {
     border: 3px dotted red;
+    
 }
 
 h1 {
@@ -21,6 +22,7 @@ nav {
     text-align: right;
     color: gray;
     font-size: MEDIUM;
+    
 }
 
 nav a {
